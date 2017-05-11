@@ -35,7 +35,7 @@ nav a {
     color: white;
 }
 
-.WelcomeText {
+#WelcomeText {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;

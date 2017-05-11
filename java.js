@@ -6,3 +6,10 @@ function showhide(id) {
         x.style.display = 'none';
     }
 }
+
+function easter() {
+  d = new Date();
+  if (d.getMonth() === 4 && d.getDate() === 24) {
+    document.getElementById('WelcomeText').innerHTML = "Happy Birthday";
+  }
+}
