@@ -9,7 +9,7 @@
 }
 
 
-.wrapper { 
+.wrapper {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +45,7 @@ nav a {
 }
 
 .download {
-    height: 250px;
+    height: 200px;
     background-color: rgb(216, 216, 216);
     text-align: center;
     font-family: komi;
@@ -56,7 +56,7 @@ nav a {
     float: left;
 }
 .download1 {
-    height: 250px;
+    height: 200px;
     background-color: rgb(191, 45, 45);
     text-align: center;
     font-family: komi;
@@ -68,7 +68,7 @@ nav a {
 }
 .sectionHeader {
     text-align: center;
-    
+
     padding-top: 1%;
     padding-bottom: 1%;
     font-family: komi;
@@ -78,7 +78,7 @@ nav a {
 #Neslist {
     background-color: rgb(216, 216, 216);
     text-align: center;
-    font-family: komi; 
+    font-family: komi;
     display: none;
 }
 
@@ -89,7 +89,7 @@ nav a {
 }
 .DLink {
     padding-top: 1%;
-    padding-bottom: 1%; 
+    padding-bottom: 1%;
     background-color: rgb(190, 190, 190);
 }
 .DLink a{
@@ -99,7 +99,7 @@ nav a {
 #sneslist {
     background-color: rgb(191, 45, 45);
     text-align: center;
-    font-family: komi; 
+    font-family: komi;
     display: none;
 }
 .footer h1{
