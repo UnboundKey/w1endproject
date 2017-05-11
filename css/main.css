@@ -1,0 +1,107 @@
+@font-face {
+    font-family: legend;
+    src: url(../fonts/HeroesLegend.ttf);
+}
+
+@font-face {
+    font-family: komi;
+    src: url(../fonts/KOMIKAX_.ttf);
+}
+
+
+.wrapper { 
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+}
+nav {
+    padding:0.05%;
+    background-color: #0b0803
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline;
+    padding-left: 2.5%;
+    padding-right: 2.5%
+}
+nav a {
+    font-size: 1em;
+    font-family: komi;
+    text-decoration: none;
+    color: white;
+}
+
+.WelcomeText {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: legend;
+    background-image: url(../images/HD-8-Bit-Wallpaper-1.jpg);
+    color: white;
+}
+
+.download {
+    height: 250px;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    font-family: komi;
+}
+
+.download img {
+    height: 100%;
+    float: left;
+}
+.download1 {
+    height: 250px;
+    background-color: rgb(191, 45, 45);
+    text-align: center;
+    font-family: komi;
+}
+
+.download1 img {
+    height: 100%;
+    float: right;
+}
+.sectionHeader {
+    text-align: center;
+    
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: komi;
+    background-color: #696969;
+}
+
+#Neslist {
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    font-family: komi; 
+    display: none;
+}
+
+.gamelist ul {
+    list-style: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.DLink {
+    padding-top: 1%;
+    padding-bottom: 1%; 
+    background-color: rgb(190, 190, 190);
+}
+.DLink a{
+    color: black;
+    padding: 1%;
+}
+#sneslist {
+    background-color: rgb(191, 45, 45);
+    text-align: center;
+    font-family: komi; 
+    display: none;
+}
+.footer h1{
+    font-family: komi;
+}
