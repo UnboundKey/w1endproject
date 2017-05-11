@@ -9,7 +9,18 @@ function showhide(id) {
 
 function easter() {
   d = new Date();
-  if (d.getMonth() === 4 && d.getDate() === 24) {
-    document.getElementById('WelcomeText').innerHTML = "Happy Birthday";
+  switch (d.getMonth()) {
+    case 3:
+        if(d.getDate === 24)
+          document.getElementById('WelcomeText').innerHTML = "Happy Birthday";
+        break;
+    case 4:
+      if(d.getDate() === 11) {
+        document.getElementById('WelcomeText').innerHTML = "Who's been drawing dicks";
+      }
+      if(d.getDate === 4) {
+        document.getElementById('WelcomeText').innerHTML = "May the force be with you";  
+      }
+      break;
   }
 }
