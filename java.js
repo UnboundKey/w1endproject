@@ -19,7 +19,7 @@ function easter() {
         document.getElementById('WelcomeText').innerHTML = "Who's been drawing dicks";
       }
       if(d.getDate === 4) {
-        document.getElementById('WelcomeText').innerHTML = "May the force be with you";  
+        document.getElementById('WelcomeText').innerHTML = "May the force be with you";
       }
       break;
   }
