@@ -30,13 +30,21 @@ nav ul {
 nav li {
     display: inline;
     padding-left: 2.5%;
-    padding-right: 2.5%
+    padding-right: 2.5%;
+
 }
 nav a {
     font-size: 1em;
     font-family: komi;
     text-decoration: none;
     color: white;
+    text-shadow: 1px 4px darkred;
+  }
+
+nav a:hover {
+  font-size: 1.01em;
+  text-shadow: none;
+  transition: 0.35s ease;
 }
 
 #WelcomeText {
@@ -91,6 +99,14 @@ nav a {
     text-align: center;
     font-family: komi;
     display: none;
+}
+
+#CreativeExercise:hover {
+  transition: linear 0.35s;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background-image: url('../images/maxresdefault.jpg');
+  background-position: center;
 }
 
 .gamelist ul {
